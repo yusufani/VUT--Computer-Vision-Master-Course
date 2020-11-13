@@ -46,7 +46,6 @@ def image(imageFileName):
     # The first column sould be black.  
     # The rectangle should not be visible.
     img = img_org # For rectangle
-    print(len(img[:len(img)//2]))
     selected_rows = np.arange(0,len(img)//2,1)
     selected_columns = np.arange(0,len(img[0]),3)
 
